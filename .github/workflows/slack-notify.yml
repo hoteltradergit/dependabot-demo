@@ -7,7 +7,7 @@ on:
 
 jobs:
   notify:
-    uses: hoteltradergit/.github/.github/workflows/slack-notify-reusable.yml@main
+    uses: hoteltradergit/.github/.github/workflows/slack-notify-module.yml@main
     with:
       workflow_name: ${{ github.event.workflow_run.name }}
       conclusion: ${{ github.event.workflow_run.conclusion }}
